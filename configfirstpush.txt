@@ -1,0 +1,93 @@
+Somchai_Stou@Somchai_Stou MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ eclipse/
+ eclipse-workspace/
+ Ex1.py
+ Ex2.py
+ Ex3.py
+ Ex4.py
+ Favorites/
+ IdeaProjects/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ my-first-angular/
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{647f7322-b873-11ea-b4b6-9fce93152a07}.TM.blf
+ NTUSER.DAT{647f7322-b873-11ea-b4b6-9fce93152a07}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{647f7322-b873-11ea-b4b6-9fce93152a07}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+'Programming Expert with Python'/
+ PycharmProjects/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+'Tkinter test.py'
+ Videos/
+
+Somchai_Stou@Somchai_Stou MINGW64 ~
+$ cd banana
+
+Somchai_Stou@Somchai_Stou MINGW64 ~/banana
+$ git init
+Initialized empty Git repository in C:/Users/Somchai_Stou/banana/.git/
+
+Somchai_Stou@Somchai_Stou MINGW64 ~/banana (master)
+$ git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+        menu.py
+
+nothing added to commit but untracked files present
+
+Somchai_Stou@Somchai_Stou MINGW64 ~/banana (master)
+$ git add .
+
+Somchai_Stou@Somchai_Stou MINGW64 ~/banana (master)
+$ git commit -m "first commit"
+[master (root-commit) 8901034] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 menu.py
+
+Somchai_Stou@Somchai_Stou MINGW64 ~/banana (master)
+$ git remote add origin https://github.com/somchains/banana.git
+
+Somchai_Stou@Somchai_Stou MINGW64 ~/banana (master)
+$ git remote -v
+origin  https://github.com/somchains/banana.git (fetch)
+origin  https://github.com/somchains/banana.git (push)
+
+Somchai_Stou@Somchai_Stou MINGW64 ~/banana (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 223 bytes | 55.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/somchains/banana.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Somchai_Stou@Somchai_Stou MINGW64 ~/banana (master)
+$
